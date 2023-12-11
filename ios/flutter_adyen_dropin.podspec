@@ -15,7 +15,6 @@ A new Flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
-  s.swift_versions = ['4.0', '4.2', '5.0']
   s.dependency 'Flutter'
   s.dependency 'Adyen'
 

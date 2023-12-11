@@ -1,5 +1,5 @@
 #import "FlutterAdyenDropinPlugin.h"
-#import <flutter_adyen_dropin-Swift.h>
+#import <flutter_adyen_dropin/flutter_adyen_dropin-Swift.h>
 
 @implementation FlutterAdyenDropinPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
