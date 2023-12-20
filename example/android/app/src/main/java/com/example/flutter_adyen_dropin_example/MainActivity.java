@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 
-import com.example.flutter_adyen_dropin.AdyenSetup;
+import app.adyen.flutter_adyen_dropin.AdyenSetup;
 
 import io.flutter.embedding.android.FlutterFragmentActivity;
 

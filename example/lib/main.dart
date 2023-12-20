@@ -29,16 +29,22 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: CupertinoButton(
               child: const Text("Drop In"),
-              onPressed: () {
-                FlutterAdyenDropIn.openDropIn(
-                  sessionData: "<YOUR-SESSION-DATA>",
-                  clientKey: "<YOUR-CLIENT-KEY>",
-                  currency: "USD",
-                  value: 1000,
-                  sessionId: "<YOUR-SESSION-ID>",
-                  countryCode: "en-US",
-                  sessionInfo: {"FIELD": "<YOUR-SESSION-INFO>"},
-                );
+              onPressed: () async {
+                String dropInStatus = '';
+                try {
+                  dropInStatus = await FlutterAdyenDropIn.openDropIn(
+                    sessionData: "<YOUR-SESSION-DATA>",
+                    clientKey: "<YOUR-CLIENT-KEY>",
+                    currency: "USD",
+                    value: 1000,
+                    sessionId: "<YOUR-SESSION-ID>",
+                    countryCode: "en-US",
+                    sessionInfo: {"FIELD": "<YOUR-SESSION-INFO>"},
+                  );
+                } catch (e) {
+                  print(e);
+                }
+                print(dropInStatus);
               }),
         ),
       ),

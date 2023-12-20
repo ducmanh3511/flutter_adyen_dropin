@@ -1,4 +1,4 @@
-package com.example.flutter_adyen_dropin
+package app.adyen.flutter_adyen_dropin
 
 import androidx.activity.result.ActivityResultCaller
 import androidx.activity.result.ActivityResultLauncher

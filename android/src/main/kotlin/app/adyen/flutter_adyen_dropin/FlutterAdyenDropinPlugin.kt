@@ -1,4 +1,4 @@
-package com.example.flutter_adyen_dropin
+package app.adyen.flutter_adyen_dropin
 
 import android.app.Activity
 import androidx.annotation.NonNull
