@@ -1,7 +1,7 @@
 name: flutter_adyen_dropin
 description: Flutter plugin to integrate Adyen DropIn
 version: 0.0.1
-homepage:
+homepage: https://github.com/ducmanh3511/flutter_adyen_dropin
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
