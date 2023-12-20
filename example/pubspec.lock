@@ -70,7 +70,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_adyen_dropin:
+  flutter_adyen_dropin_plugin:
     dependency: "direct main"
     description:
       path: ".."

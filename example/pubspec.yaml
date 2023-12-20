@@ -17,7 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_adyen_dropin:
+  flutter_adyen_dropin_plugin:
     path: ../
 
   # The following adds the Cupertino Icons font to your application.

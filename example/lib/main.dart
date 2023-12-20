@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_adyen_dropin/flutter_adyen_dropin_plugin.dart';
+import 'package:flutter_adyen_dropin_plugin/flutter_adyen_dropin_plugin.dart';
 
 void main() {
   runApp(const MyApp());
