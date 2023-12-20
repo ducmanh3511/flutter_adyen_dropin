@@ -1,4 +1,4 @@
-# flutter_adyen_dropin
+# flutter_adyen_dropin_plugin
 
 Note: This library is not official from Adyen.
 
