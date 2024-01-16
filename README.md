@@ -81,3 +81,13 @@ try {
     print(e);
 }
 ```
+## Payment Status
+All the status of the payment you can receive. Check [here](https://docs.adyen.com/payment-methods/cash-app-pay/android-drop-in/#show-result) for more detail
+
+```
+PAYMENT_CANCELED (when you close the pop up)
+Authorised
+Cancelled
+Error
+Refused
+```

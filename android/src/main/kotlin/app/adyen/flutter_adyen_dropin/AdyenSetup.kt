@@ -47,7 +47,7 @@ private class DropInCallbackListener : SessionDropInCallback {
             when (sessionDropInResult) {
                 is SessionDropInResult.CancelledByUser -> it.onCancelledByUser()
                 is SessionDropInResult.Error -> it.onError(sessionDropInResult.reason)
-                is SessionDropInResult.Finished -> sessionDropInResult.result.sessionResult?.let { result ->
+                is SessionDropInResult.Finished -> sessionDropInResult.result.resultCode?.let { result ->
                     it.onFinished(
                         result
                     )

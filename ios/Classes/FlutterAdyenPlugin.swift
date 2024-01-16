@@ -95,8 +95,12 @@ extension FlutterAdyenPlugin: AdyenSessionDelegate, PresentationDelegate {
     }
     
     public func didFail(with error: Error, from component: Adyen.Component, session: Adyen.AdyenSession) {
-        self.mResult?(error.localizedDescription)
         self.topController?.dismiss(animated: true)
+        if case ComponentError.cancelled = error {
+            self.mResult?("PAYMENT_CANCELED")
+        } else {
+            self.mResult?(error.localizedDescription)
+        }
     }
     
     public func didOpenExternalApplication(component: Adyen.ActionComponent, session: Adyen.AdyenSession) {
